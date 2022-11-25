@@ -8,5 +8,9 @@ will also be a priority.
 # Before you start
 Run the following commands:
 #### npm install react-router-dom
-
 #### npm install -D tailwindcss
+Add HTML to sample pages and any additional pages
+
+# Deployment
+Delete node_modules/.cache/gh-pages if this folder exists.
+Run npm run deploy and then add a copy of index.html called 404.html.
